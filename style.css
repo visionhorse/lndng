@@ -82,11 +82,18 @@ header {
 
 	.nav-link {
 		padding: 0.3rem;
+		/*transition: all 1s;*/
 	}
 
 	.nav-link:hover {
 		transform: scale(1.35)
+		/*color: white;*/
 	}
+
+	/*.nav-link:visited:hover {
+		color: white;
+		transform: scale(1.35)
+	}*/
 			
 .landing-wrapper {
 	width: 100vw;
@@ -135,6 +142,7 @@ header {
 	border-right: 14px solid var(--golddark);
 	border-left: 14px solid var(--golddark);
 	border-collapse: collapse;
+	border-radius: 20px;
 
 }
 
@@ -227,6 +235,8 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	background-color: var(--blk);
+	width: 100%;
+	border-radius: 20px;
 	flex-wrap: wrap;
 	margin-bottom: 4rem;
 		}
@@ -252,7 +262,7 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 3rem;
+	margin-top: 4.5rem;
 	background-color: var(--blk);
 	padding-bottom: 2rem;
 	z-index: 1;
