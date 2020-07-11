@@ -142,7 +142,8 @@ header {
 	border-right: 14px solid var(--golddark);
 	border-left: 14px solid var(--golddark);
 	border-collapse: collapse;
-	border-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
 
 }
 
