@@ -16,6 +16,10 @@ a:visited {
 	color: var(--pale);
 }
 
+a:hover {
+	color: var(--white);
+}
+
 
 :root {
 	--blk: #141414;
@@ -407,6 +411,5 @@ footer > p {
 		width: 40vw;
 	}
 }
-
 
 
